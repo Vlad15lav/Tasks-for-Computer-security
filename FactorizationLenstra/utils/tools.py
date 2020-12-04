@@ -38,6 +38,6 @@ def isPrime(n): # Check on prime number
         t //= 2
 
     if (MiillerRabin(t, n) == False): 
-        return False;
+        return False
   
     return True
