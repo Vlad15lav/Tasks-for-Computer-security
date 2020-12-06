@@ -27,6 +27,6 @@ def Lenstra(N, B, curves):
 
         P.kPmultiply(M, curve) # Calculation MP
         gcd_nz = gcd(N, P.Z) # Check GCD for N and P.Z
-        if gcd_nz > 1: # Found gcd_nz | N
+        if gcd_nz > 1 and gcd_nz != N: # Found gcd_nz | N
             return {'Factorization': gcd_nz, 'Curves': i + 1, 'X': x, 'Y': y, 'A': a, 'B': b, 'time': time.time() - start_time}
     return None
