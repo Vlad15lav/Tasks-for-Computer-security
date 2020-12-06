@@ -6,7 +6,7 @@ def gcd(a, b): # Find GCD
     return a
 
 def RandomCurve(n): # Random X Y A for Curve
-    return random.randint(0, n), random.randint(0, n), random.randint(0, n)
+    return [random.randint(0, n) for _ in range(3)]
   
 def MillerRabin(d, n): # Test Miller Rabin on prime number
     a = 2 + random.randint(1, n - 4)
