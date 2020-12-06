@@ -33,7 +33,7 @@ def isPrime(n): # Check on prime number
     if n <= 3: 
         return True
   
-    t = n - 1; 
+    t = n - 1;
     while t % 2 == 0: 
         t //= 2
 
