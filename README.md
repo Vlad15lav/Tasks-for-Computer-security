@@ -1,5 +1,5 @@
-# Theory of Computer security
-Basic computer security tasks 🖥🔒
+# Computer Security Tools
+Basic computer security tools 🖥🔒
 
 # Requirements
 `pip install -U -r requirements.txt`
