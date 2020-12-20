@@ -47,6 +47,11 @@ int main()
 	cin >> deg1;
 	NumberIrreducible(deg1, 2);
 	
+	cout << "Write the degree of the polynomial: ";
+	int deg2;
+	cin >> deg2;
+	NumberPrimitive(deg2, 2);
+	
 	cout << endl;
 	return 0;
 }
@@ -253,6 +258,24 @@ bool Polynomial::isIrreducible(int fild)
 	return true;
 }
 
+bool Polynomial::isPrimitive(int fild)
+{
+	if (!isIrreducible(fild)) return false; // Should be irreducible
+	// Order condition Pn(x) = max = p^n - 1
+	int e = pow(fild, degree) - 1;
+	for (int i = degree; i < e; i++)
+	{
+		int *coeff = new int[i + 1] {0};
+		coeff[0] = 1, coeff[i] = 1;
+		Polynomial q = Polynomial(coeff, i);
+		pair<Polynomial, Polynomial> t = q / *this;
+		t.second.Mod(2);
+		if (t.second.isZero()) return false;
+	}
+	
+	return true;
+}
+
 // Functions
 
 int* DecToBin(int num)
@@ -281,4 +304,19 @@ void NumberIrreducible(int n, int fild)
 		}
 	}
 	cout << "Number of irreducible polynomials of degree " << n << " - " << kol << endl;
+}
+
+void NumberPrimitive(int n, int fild)
+{
+	int kol = 0;
+	for (int s = pow(2, n), end = pow(2, n + 1); s < end; s++)
+	{
+		Polynomial t = Polynomial(s, true);
+		if (t.isPrimitive(fild))
+		{
+			cout << t;
+			kol++;
+		}
+	}
+	cout << "Number of primitive polynomials of degree " << n << " - " << kol << endl;
 }
