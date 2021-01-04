@@ -1,0 +1,20 @@
+C:\Users\Владислав\Desktop\Теоретические основы компьютерной безопасности\RSA\RSA\bin\Debug\RSA.exe.config
+C:\Users\Владислав\Desktop\Теоретические основы компьютерной безопасности\RSA\RSA\bin\Debug\RSA.exe
+C:\Users\Владислав\Desktop\Теоретические основы компьютерной безопасности\RSA\RSA\bin\Debug\RSA.pdb
+C:\Users\Владислав\Desktop\Теоретические основы компьютерной безопасности\RSA\RSA\obj\Debug\RSA.csprojAssemblyReference.cache
+C:\Users\Владислав\Desktop\Теоретические основы компьютерной безопасности\RSA\RSA\obj\Debug\RSA.Form1.resources
+C:\Users\Владислав\Desktop\Теоретические основы компьютерной безопасности\RSA\RSA\obj\Debug\RSA.Properties.Resources.resources
+C:\Users\Владислав\Desktop\Теоретические основы компьютерной безопасности\RSA\RSA\obj\Debug\RSA.csproj.GenerateResource.cache
+C:\Users\Владислав\Desktop\Теоретические основы компьютерной безопасности\RSA\RSA\obj\Debug\RSA.csproj.CoreCompileInputs.cache
+C:\Users\Владислав\Desktop\Теоретические основы компьютерной безопасности\RSA\RSA\obj\Debug\RSA.exe
+C:\Users\Владислав\Desktop\Теоретические основы компьютерной безопасности\RSA\RSA\obj\Debug\RSA.pdb
+C:\Users\Владислав\Desktop\GitHub\WindowsForms\RSA\RSA\obj\Debug\RSA.csprojAssemblyReference.cache
+C:\Users\Владислав\Desktop\GitHub\WindowsForms\RSA\RSA\obj\Debug\RSA.Form1.resources
+C:\Users\Владислав\Desktop\GitHub\WindowsForms\RSA\RSA\obj\Debug\RSA.Properties.Resources.resources
+C:\Users\Владислав\Desktop\GitHub\WindowsForms\RSA\RSA\obj\Debug\RSA.csproj.GenerateResource.cache
+C:\Users\Владислав\Desktop\GitHub\WindowsForms\RSA\RSA\obj\Debug\RSA.csproj.CoreCompileInputs.cache
+C:\Users\Владислав\Desktop\GitHub\WindowsForms\RSA\RSA\obj\Debug\RSA.exe
+C:\Users\Владислав\Desktop\GitHub\WindowsForms\RSA\RSA\obj\Debug\RSA.pdb
+C:\Users\Владислав\Desktop\GitHub\WindowsForms\RSA\RSA\bin\Debug\RSA.exe.config
+C:\Users\Владислав\Desktop\GitHub\WindowsForms\RSA\RSA\bin\Debug\RSA.exe
+C:\Users\Владислав\Desktop\GitHub\WindowsForms\RSA\RSA\bin\Debug\RSA.pdb
